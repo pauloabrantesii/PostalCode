@@ -1,0 +1,55 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(120deg, #000000,#1c1c1c );
+}
+
+.title {
+    font-size: 85px;
+    color: white;
+
+animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+
+    to{
+        transform: rotateX(0deg)
+    }
+
+}
+
+.containerInput {
+    background-color: #rgba(255,255,255, 0.2);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    border-radius: 8px;
+
+
+}
