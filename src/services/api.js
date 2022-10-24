@@ -3,7 +3,7 @@ import axios from "axios"
  
 
 const api = axios.create({
-    baseURL:"https://viacep.com.br/ws/teste"
+    baseURL:"https://viacep.com.br/ws/"
 })
 
 
